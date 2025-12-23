@@ -1,0 +1,15 @@
+source:
+  ticker: AAPL
+  start_date: "2015-01-01"
+  end_date: "2024-01-01"
+
+split:
+  train: 0.7
+  val: 0.15
+  test: 0.15
+
+window:
+  size: 30
+  
+validation:
+  strategy: single_split

@@ -205,3 +205,41 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# ===============================
+# ML / Data Science additions
+# ===============================
+
+# Virtual environments
+lstm_venv/
+venv/
+env/
+.venv/
+
+# Data artifacts
+artifacts/
+data/
+*.csv
+*.parquet
+
+# Logs
+logs/
+*.log
+
+# Experiment tracking
+mlruns/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Temporary / scratch files
+temp.py
+temp.ipynb
+
+# Packaging
+*.egg-info/
+
+# OS / IDE
+.vscode/
+.idea/

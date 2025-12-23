@@ -1,0 +1,25 @@
+# Core
+numpy
+pandas
+
+# Data source
+yfinance
+
+# Machine Learning
+scikit-learn
+torch
+
+# Experiment tracking
+mlflow
+
+# API
+fastapi
+uvicorn
+
+# Config
+pyyaml
+
+# Visualization (optional, but useful)
+matplotlib
+
+-e .
