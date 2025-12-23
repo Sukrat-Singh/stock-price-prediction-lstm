@@ -31,6 +31,9 @@ class DataIngestion:
 
             if df.empty:
                 raise ValueError("Downloaded data is empty")
+            
+            if isinstance(df.columns, pd.MultiIndex):
+                df.columns = df.columns.get_level_values(0)
 
             df = df.reset_index()
             df = df.sort_values("Date")
